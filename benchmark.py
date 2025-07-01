@@ -122,7 +122,7 @@ def plot_results(avg_results: dict, device: str):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Benchmark para solucionadores de Fallout DP.")
-    parser.add_argument('--sizes', nargs='+', type=int, default=[10, 15, 20],
+    parser.add_argument('--sizes', nargs='+', type=int, default=[10, 20, 30, 40],
                         help='Lista de tamaños de cuadrícula (n) a probar.')
     parser.add_argument('--trials', type=int, default=3,
                         help='Número de pruebas a ejecutar por cada tamaño.')
